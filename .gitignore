@@ -1,0 +1,37 @@
+# Environment
+.env
+*.env
+!.env.example
+
+# Python
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+app.log
+media/
+staticfiles/
+
+# Models & cache
+*.pkl
+bm25_model.pkl
+.cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
