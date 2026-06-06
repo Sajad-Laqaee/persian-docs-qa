@@ -10,7 +10,7 @@ A **Retrieval-Augmented Generation (RAG)** system for answering questions over P
 
 ## ✨ Features
 
-- 📄 **Document Processing** — Supports `.docx`, `.pdf`, and `.txt` files
+- 📄 **Document Processing** — Supports `.docx` files
 - 🔪 **Smart Chunking** — Persian-aware text splitting with semantic preservation (powered by [hazm](https://github.com/roshan-research/hazm))
 - 🔎 **Hybrid Search** — Combines multiple retrieval strategies:
   - **Dense retrieval** via `intfloat/multilingual-e5-base` for semantic similarity
